@@ -13,7 +13,7 @@ On récupère les informations en sélectionnant les balises suivantes :
 - **Titre** → `<h3> <a title="Book Title">`  
 - **Prix** → `<p class="price_color">`  
 - **Disponibilité** → `<p class="instock availability">`  
-- **Note** → `<p class="star-rating">` (exploité via la classe CSS)  
+- **Note** → `<p class="star-rating">`  
 
 Ensuite, on utilise **BeautifulSoup** pour extraire ces balises et récupérer les valeurs.  
 
